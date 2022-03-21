@@ -81,13 +81,16 @@
   margin-left: 105px;
 }
 
-.author-resume-and-experience {
-  justify-content: flex-end;
-  margin-top: 200px;
-  margin-left: -520px;
+.resume {
+  font-family: "Puritan", cursive;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-left: 105px;
 }
 
-.resume {
-  font-family: 'Puritan', sans-serif;
-  font-size: 20px;
+.resume-informations {
+  font-family: "Puritan", cursive;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-left: 105px;
 }
