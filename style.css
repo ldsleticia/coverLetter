@@ -7,6 +7,87 @@
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 300px 500px;
+  display: flex;
+  background-color: bisque;
+  height: auto;
+}
+
+.img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-left: 83px;
+  margin-top: 20px;
+}
+
+.contact-author {
+  margin-left: 100px;
+  margin-top: 35px;
+  /* color: #fff; */
+  font-family: "Puritan";
+  letter-spacing: 0.02em;
+  font-size: 20px;
+}
+
+#contact-informations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  font-family: "Puritan";
+}
+
+#contact-informations img {
+  float: left;
+  width: 20px;
+  margin-left: 57px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-informations espanha {
+  margin-bottom: 100px;
+}
+
+.horizontal-line {
+  margin-top: 30px;
+  margin-left: 57px;
+  width: 91.02px;
+  height: 0px;
+  border: 1px solid ;
+}
+
+.main-habilities {
+    font-family: "Puritan";
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.name-author {
+  font-family: "Poiret One", cursive;
+  font-size: 80px;
+  padding-top: 30px;
+  margin-left: 105px;
+}
+
+.author-ocupation {
+  display: flex;
+  font-family: "Poiret One";
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  opacity: 0.6;
+  padding-top: 10px;
+  margin-left: 105px;
+}
+
+.author-resume-and-experience {
+  justify-content: flex-end;
+  margin-top: 200px;
+  margin-left: -520px;
+}
+
+.resume {
+  font-family: 'Puritan', sans-serif;
+  font-size: 20px;
 }
