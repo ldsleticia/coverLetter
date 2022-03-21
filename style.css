@@ -8,10 +8,15 @@
 
 .wrapper {
   display: flex;
-  background-color: bisque;
+  background-color: #2B2741;
   height: auto;
+  color: #fff;
 }
 
+.author-informations {
+  background-color: #fff;
+  color: black;
+}
 .photo-author {
   border-radius: 100%;
   width: 150px;
