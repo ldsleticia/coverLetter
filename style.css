@@ -29,14 +29,14 @@
   font-size: 20px;
 }
 
-#contact-informations {
+.contact-informations {
   display: flex;
   justify-content: space-between;
   margin-top: 26px;
   font-family: "Puritan";
 }
 
-#contact-informations img {
+.contact-informations img {
   float: left;
   width: 20px;
   margin-left: 57px;
