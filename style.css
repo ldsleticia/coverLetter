@@ -70,7 +70,6 @@
 }
 
 .author-ocupation {
-  display: flex;
   font-family: "Poiret One";
   font-size: 24px;
   line-height: 28px;
@@ -80,16 +79,40 @@
   margin-left: 105px;
 }
 
-.resume {
+.generic-title {
   font-family: "Puritan", cursive;
   font-size: 30px;
   padding-top: 30px;
   margin-left: 105px;
 }
 
-.resume-informations {
+.informations {
   font-family: "Puritan", cursive;
   font-size: 15px;
   padding-top: 10px;
+  margin-left: 105px;
+}
+
+.company-name {
+  font-family: "Puritan", cursive;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 105px;
+}
+
+.company-time {
+  font-family: "Poiret One";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  opacity: 0.6;
+  margin-left: 105px;
+}
+
+.position {
+  font-family: "Puritan";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
   margin-left: 105px;
 }
