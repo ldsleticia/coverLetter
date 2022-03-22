@@ -1,22 +1,29 @@
 * {
   padding: 0;
   margin: 0;
-  vertical-align: baseline;
   list-style: none;
   border: 0;
 }
 
-.wrapper {
-  display: flex;
-  background-color: #2B2741;
-  height: auto;
-  color: #fff;
+body {
+  text-align: center;
 }
 
-.author-informations {
-  background-color: #fff;
-  color: black;
+.container {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 20fr;
+  grid-template-areas: "lateral-esquerda conteudo-principal";
+  font-family: Sans-serif;
+  color: #ffffff;
+  height: 1000px;
 }
+
+.lateral-esquerda {
+  background-color: #2b2741;
+  grid-area: lateral-esquerda;
+}
+
 .photo-author {
   border-radius: 100%;
   width: 150px;
@@ -45,26 +52,40 @@
   float: left;
   width: 20px;
   margin-left: 57px;
-  margin-right: 5px;
   margin-bottom: 10px;
 }
 
-.value{
+.value {
   width: 300px;
 }
+
+.habilidades {
+  width: 200px;
+}
+
+.paises {
+  width: 200px;
+}
+
 .horizontal-line {
   margin-top: 30px;
   margin-left: 57px;
   width: 91.02px;
   height: 0px;
-  border: 1px solid ;
+  border: 1px solid;
 }
 
 .main-habilities {
-    font-family: "Puritan";
-    margin-left: 40px;
-    margin-top: 20px;
+  font-family: "Puritan";
+  margin-left: 40px;
+  margin-top: 20px;
+}
 
+.conteudo-principal {
+  background-color: #fff;
+  grid-area: conteudo-principal;
+  color: #2b2741;
+  text-align: left;
 }
 
 .name-author {
@@ -120,4 +141,14 @@
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-left: 105px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+  }
 }
